@@ -1,5 +1,5 @@
 import telebot;
-bot = telebot.TeleBot('5371063394:AAEewzFPDqPjMSYhvvwvbZznzspoWIb3m5I');
+bot = telebot.TeleBot('5389475164:AAG14m2Q3XLrylbH9gzUhYz_RgucLRReaww');
 
 @bot.message_handler(commands=['start'])
 def start_command(message):
@@ -7,7 +7,7 @@ def start_command(message):
 
 @bot.message_handler(commands=['info'])
 def start_command(message):
-    bot.send_message(message.chat.id, "Наш огромный проект предоставляет вам чит за маленькую сумму🙀 что бы увидеть больше функций напишите /help")
+    bot.send_message(message.chat.id, "Наш огромный проект предоставляет вам чит за бесплатно🙀 что бы увидеть больше функций напишите /help")
 	
 @bot.message_handler(commands=['help'])
 def start_command(message):
@@ -15,7 +15,7 @@ def start_command(message):
 	
 @bot.message_handler(commands=['buy'])
 def start_command(message):
-    bot.send_message(message.chat.id, "После покупки свяжитесь с и отравьте кму чек платежа😼 @kuwekitty Ссылка для платежа: https://yoomoney.ru/bill/pay/crd6TQJPds0.220422 ")
+    bot.send_message(message.chat.id, "Что бы скачать чит переходите по этой ссылке ")
 	
 @bot.message_handler(commands=['help2'])
 def start_command(message):
